@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+.rust a {
+    background-color: #FF2300;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    height: 40px;
+    align-items: center;
+}
+
+.navv {
+    display: flex
+}
+
+body {
+    background-color: #120101;
+}
+
+.kartinka1 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(fon1.png);
+    align-items: center;
+    background-size: cover;
+}
+
+.text1 {
+    color: white;
+    margin-top: 50px;
+    font-size: 15px;
+    width: 840px;
+    text-align: center;
+    
+    
+}.kartinka1-text{
+    text-align: center;
+    margin-bottom: 41px;
+    font-size: 48px;
+}.kartinka1-image{
+    margin-right: 22px;
+    width: 50px;
+    height: 50px;
+   
+}.kartinka2{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(fon2.png);
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}.kartinka2-zagalovok{
+    color: white;
+    font-size: 48px;
+}.kartinka2-rec{
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+}.kartinka3{
+    display: flex;
+    justify-content: center;
+    height: 173px;
+    background-image: url(Rectangle\ 32.png);
+    align-items: center;
+    background-size: cover;
+}.kartinka3-mark{
+    background-color:#453D3D;
+    width: 417PX;
+    height: 118PX;
+    padding: 10px;
+}.kartinka3-box-text{
+    background-color: #CD412B;
+    width: 341px;
+    height: 57px;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+}.kartinka3-text{
+    font-size: 36px;
+    color: white;
+}.zerak{
+    margin-top: 10px;
+    font-size: 28px;
+}.kartinka4{
+    background-image: url(Group\ 6.png);
+    width: 1423px;
+    height: 583px;
+}.meh{
+    background-image:url(Group\ 7.png);
+    width: 1423px;
+    height: 376px;
+}
